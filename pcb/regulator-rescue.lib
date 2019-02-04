@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Hall_Generator-Device
+#
+DEF Hall_Generator-Device HG 0 0 Y N 1 F N
+F0 "HG" 100 175 50 H V L CNN
+F1 "Hall_Generator-Device" 100 100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -40 0 -100 0 N
+P 2 0 1 10 -20 -20 20 20 N
+P 2 0 1 10 -20 20 20 -20 N
+P 2 0 1 0 40 0 100 0 N
+X U2 1 0 -200 100 U 50 50 1 1 P
+X UH1 2 -150 0 50 R 50 50 1 1 P
+X U1 3 0 200 100 D 50 50 1 1 P
+X UH2 4 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
