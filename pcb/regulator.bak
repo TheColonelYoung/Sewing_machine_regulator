@@ -40,8 +40,8 @@ $Comp
 L Amplifier_Operational:TL082 U1
 U 2 1 5C2387B2
 P 3800 2500
-F 0 "U1" H 3750 2900 50  0000 C CNN
-F 1 "TL082" H 3750 2800 50  0000 C CNN
+F 0 "U1" H 3950 2400 50  0000 C CNN
+F 1 "TL082" H 3900 2300 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 3800 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3800 2500 50  0001 C CNN
 	2    3800 2500
@@ -532,4 +532,37 @@ $EndComp
 Connection ~ 5750 3300
 Wire Wire Line
 	5750 3300 6000 3300
+$Comp
+L Amplifier_Operational:TL082 U1
+U 3 1 5C5943D9
+P 3800 2500
+F 0 "U1" H 3750 2750 50  0001 L CNN
+F 1 "TL082" H 3750 2650 50  0001 L CNN
+F 2 "" H 3800 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3800 2500 50  0001 C CNN
+	3    3800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C5953E2
+P 3700 2200
+F 0 "#PWR?" H 3700 2050 50  0001 C CNN
+F 1 "VCC" H 3717 2373 50  0000 C CNN
+F 2 "" H 3700 2200 50  0001 C CNN
+F 3 "" H 3700 2200 50  0001 C CNN
+	1    3700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C5955BA
+P 3700 2800
+F 0 "#PWR?" H 3700 2550 50  0001 C CNN
+F 1 "GND" H 3600 2700 50  0000 C CNN
+F 2 "" H 3700 2800 50  0001 C CNN
+F 3 "" H 3700 2800 50  0001 C CNN
+	1    3700 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
